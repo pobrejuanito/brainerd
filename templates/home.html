@@ -1,0 +1,848 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HEX - Responsive One Page Multipurpose HTML Template</title>
+
+	<!--pageMeta-->
+	
+    
+	<!-- Lib CSS -->
+	<link href="{% static 'lib/bootstrap/css/bootstrap.css' %}"rel="stylesheet">
+    <link href="{% static 'lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css' %}"rel="stylesheet">
+    <link href="{% static 'lib/owl-carousel/owl.css' %}"rel="stylesheet">
+    <link href="{% static 'lib/Swiper/css/swiper.min.css' %}"rel="stylesheet">
+    <link href="{% static 'lib/owl-carousel/assets/owl.carousel.min.css' %}"rel="stylesheet">
+    <link href="{% static 'lib/vegas/vegas.min.css' %}"rel="stylesheet">
+    <link href="{% static 'lib/Magnific-Popup/magnific-popup.css' %}"rel="stylesheet">
+    <link href="{% static 'lib/sweetalert/sweetalert2.min.css' %}"rel="stylesheet">
+    <link href="{% static 'lib/materialize-parallax/materialize-parallax.css' %}"rel="stylesheet">
+
+
+	<!-- Icon fonts -->
+    <link href="{% static 'fonts/fontawesome-all.min.css' %}"rel="stylesheet">
+    <link href="{% static 'fonts/pe-icon-7-stroke.css' %}"rel="stylesheet">
+    <link href="{% static 'fonts/et-line-font.css' %}"rel="stylesheet">
+
+    <!-- Template CSS -->
+    <link href="{% static 'css/animate.css' %}"rel="stylesheet">
+    <link href="{% static 'css/main.css' %}"rel="stylesheet">
+    <link href="{% static 'css/ckav-grids.css' %}"rel="stylesheet">
+    <link href="{% static 'css/helper.css' %}"rel="stylesheet">
+    <link href="{% static 'css/responsive.css' %}"rel="stylesheet">
+
+    <!-- Theme color css -->
+    <link href="{% static 'css/themes/default.css' %}"rel="stylesheet">
+    <link href="{% static 'css/template-custom.css' %}"rel="stylesheet">
+
+	<!-- Favicons -->
+	<link rel="icon" href="{% static 'images/favicons/favicon.ico' %}">
+	<link rel="apple-touch-icon" href="{% static 'images/favicons/apple-touch-icon.png' %}">
+	<link rel="apple-touch-icon" sizes="72x72" href="{% static 'images/favicons/apple-touch-icon-72x72.png' %}">
+	<link rel="apple-touch-icon" sizes="114x114" href="{% static 'images/favicons/apple-touch-icon-114x114.png' %}">
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+	<!--[if lt IE 9]>
+	<script src="{% static 'js/html5shiv.js' %}"></script>
+	<script src="{% static 'js/respond.min.js' %}"></script>
+	<![endif]-->
+	<!--[if IE 9 ]><script src="{% static 'js/ie-matchmedia.js' %}"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-loader"><b class="spinner"></b></div>
+
+<div id="page" data-linkscroll='y'>
+		
+	<!--
+	************************************************************
+	* HEADER
+	************************************************************ -->
+	<header class="main-head dark bg-glass-dark-03" data-sticky="y">
+		<div class="container small">
+			<div class="row gt0 align-items-center head-row">
+				
+				<!--=================================
+				= LOGO SECTION
+				==================================-->
+				<div class="col-lg-3 pos-rel">
+					<a class="nav-handle" data-nav=".m-content" data-navopen="pe-7s-more" data-navclose="pe-7s-close"><i class="pe-7s-more"></i></a>
+					<div class="header-logo-wrp">
+						<a class="header-logo pd-tb-small" href="http://ckavart.com/"><img src="{% static 'images/logo-light.png' %}" alt="Brand logo"></a>
+					</div>
+				</div><!-- ======= END : LOGO SECTION =======  -->
+				
+				<!--=================================
+				= NAVIGATION LINKS
+				==================================-->
+				<div class="col-lg-9 align-r m-content">
+					<ul class="row gt20 justify-content-md-end mr-0 align-items-center">
+						<li class="col-lg-auto">
+							<nav class="menu-wrp align-l">
+								<ul class="menu">
+									<li class="menu-item"><a href="#about">About use</a></li>
+									<li class="menu-item"><a href="#department">Departments</a></li>
+									<li class="menu-item"><a href="#doctors">Doctors</a></li>
+									<li class="menu-item"><a href="#findus">Find us</a></li>
+								</ul>
+							</nav>
+						</li>
+
+						<li class="col-lg-auto bdr-l bdr-op-light-2 pd-l-20" data-ckav-sm="pd-0 pd-t-10 align-c">
+							<a href="http://ckavart.com/" class="btn btn-white mini solid">Purchase</a>
+						</li>
+					</ul>
+
+				</div><!-- ======= END : NAVIGATION LINKS =======  -->
+
+			</div>
+		</div>
+	</header><!-- ************** END : HEADER **************  -->
+
+	<!--
+	************************************************************
+	* INTRO SECTION 06
+	************************************************************ -->
+	<section class="pd-tb-small bg-dark" data-ckav-sm="pd-tb-small align-c" id="home"> 
+
+		<div class="container small pd-t-small" data-ckav-sm="pd-0">
+			<div class="row gt20 mb20">
+				<div class="col-md-6"></div>
+				<div class="col-md-6 align-c">
+					
+					<!--=================================
+					= FORM
+					==================================-->
+					<div class="form-block mr-auto" data-ckav-sm="pd-20">
+						<div class="bg-dark pd-mini rd-6 mr-b-micro" data-ckav-sm="pd-30" data-animate-in="fadeIn">
+							<h3 class="title txt-white f-1" data-ckav-sm="small">Complete Medical Solution</h3>
+							<p class="txt-white op-08" data-ckav-sm="small mr-0">Get powerful experience to create unique templates in just few minutes with LeadPack template toolkit</p>
+						</div>
+						<div class="pos-rel -mr-t-40 mr-b-micro"><span class="sq60 iconbox rd txt-white fs20 bg-default shadow-mini" data-animate-in="fadeInUp|0.1"><i class="fa fa-arrow-down"></i></span></div>
+						<div class="pd-mini bg-white shadow-medium rd-6" data-ckav-sm="pd-30" data-animate-in="fadeInUp|0.2">
+							<h3 class="title small">Book an Appointment</h3>
+							<form action="form-data/notify-me.php" class="form-widget" data-formtype="newsletter">
+								<div class="field-wrp">
+									<div class="form-group">
+										<input class="form-control" data-label="Name" required data-msg="Please enter name." type="text" name="name" placeholder="Enter your name">
+									</div>
+									<div class="form-group">
+										<input class="form-control" data-label="Email" required data-msg="Please enter email." type="email" name="email" placeholder="Enter your email">
+									</div>
+									<div class="form-group">
+										<input class="form-control" required data-label="Phone" data-msg="Please phone number." type="text" name="phone" placeholder="Enter your phone number">
+									</div>
+
+									<div class="form-group">
+										<select class="form-control" data-label="Department" required name="department" data-msg="Select department">
+											<option value="">Select department</option>
+											<option value="Acupuncture">Acupuncture</option>
+											<option value="Laboratory">Laboratory</option>
+											<option value="Nutrition">Nutrition</option>
+											<option value="Prescription">Prescription</option>
+											<option value="Travel Medicine">Travel Medicine</option>
+											<option value="Other">Other</option>
+										</select>
+									</div>
+
+									<div class="form-group">
+										<input class="form-control date-pick" required data-label="Date" data-msg="Please select date" type="text" name="date" placeholder="Enter your date">
+									</div>
+									
+								</div>
+								<button type="submit" data-loading-text="Pleae wait.." class="btn btn-dark hov-btn-default solid">Make an Appointment</button>
+							</form>
+						</div>
+					</div><!-- ======= END :  =======  -->
+
+				</div>
+
+				
+			</div>
+		
+		</div>
+		
+		<b class="full-vh bg-cc bg-cover" data-stellar="y" data-stellar-vertical-offset="-100" data-stellar-ratio="0.8" data-ckav-sm="h100" data-bg="{% static 'images/bg-medical-01.jpg' %}"></b>
+	</section>
+	<!-- ************** END : INTRO SECTION 06 **************  -->
+	
+	<!--
+	************************************************************
+	* FEATURE SECTION 04
+	************************************************************ -->
+	<section class="pd-0" id="about">
+		
+		<!--=================================
+		= IMAGE SECTION
+		==================================-->
+		<div class="pd-t-small bg-default pd-b-10" data-ckav-sm="pd-tb-small align-c" data-animate-in="fadeIn">
+			<div class="container small align-c typo-light">
+				<div class="w60 mr-auto mr-b-mini">
+					<h2 class="title f-1" data-ckav-sm="medium">Multipurpose templates</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua</p>
+				</div>
+
+				<div class="-mr-b-200 pos-rel rd-10 shadow-large" data-ckav-sm="w-reset px-h400 mr-0">
+					<div class="carousel-widget ctrl-1 align-c" 
+						data-items="1"
+						data-nav="true"
+						data-pager="false"
+						data-itemrange="false"
+						data-margin="0"
+						data-autoplay="false"
+						data-hauto="false"
+						data-center="false">
+						<div class="owl-carousel">
+							
+							<div class="item">
+								<img src="{% static 'images/medical-galleryimg-01.jpg' %}" alt="image">
+							</div><!-- /.item -->
+
+							<div class="item">
+								<img src="{% static 'images/medical-galleryimg-02.jpg' %}" alt="image">
+							</div><!-- /.item -->
+
+							<div class="item">
+								<img src="{% static 'images/medical-galleryimg-03.jpg' %}" alt="image">
+							</div><!-- /.item -->
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div><!-- ======= END :  =======  -->
+
+		<!--=================================
+		= FEATURE INFO
+		==================================-->
+		<div class="pd-tb-mini mr-t-200" data-ckav-sm="mr-0">
+			<div class="container small">
+				<div class="row gt40 mb20">
+					<div class="col-md-4" data-animate-in="fadeInUp|0.1">
+						<div class="info-obj img-l g10 mini" data-ckav-sm="pd-10 mr-0">
+							<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-phone"></i></span></div>
+							<div class="info">
+								<h3 class="title mini bold-n">Responsive Design</h3>
+								<p data-ckav-sm="mr-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4" data-animate-in="fadeInUp|0.2">
+						<div class="info-obj img-l g10 mini" data-ckav-sm="pd-10 mr-0">
+							<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-copy-file"></i></span></div>
+							<div class="info">
+								<h3 class="title mini bold-n">Clean & Powerful Code</h3>
+								<p data-ckav-sm="mr-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4" data-animate-in="fadeInUp|0.3">
+						<div class="info-obj img-l g10 mini" data-ckav-sm="pd-10 mr-0">
+							<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-help2"></i></span></div>
+							<div class="info">
+								<h3 class="title mini bold-n">Dedicated Support</h3>
+								<p data-ckav-sm="mr-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ======= END : FEATURE INFO =======  -->
+		
+		<div class="container small align-c pd-b-small">
+			<div class="w75 mr-auto" data-animate-in="fadeInUp">
+				<h2 class="title f-1 small">One of best multi-purpose template template collection to quickly start your page</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+
+				<a href="http://ckavart.com/" class="btn btn-default solid round">Get started now</a>
+			</div>
+			
+		</div>
+	</section>
+	<!-- ************** END : FEATURE SECTION 04 **************  -->
+
+	<!--
+	************************************************************
+	* CONTENT SECTION 12
+	************************************************************ -->
+	<section class="pd-tb-small bg-gray" id="department" data-ckav-sm="pd-tb-small">
+		<div class="container small">
+			<div class="w75 mr-auto mr-b-mini align-c" data-animate-in="fadeInUp|0.1">
+				<h2 class="title f-1" data-ckav-sm="medium">Our Departments</h2>
+				<p class="f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			</div>
+
+			
+			<div class="tabs-auto tab-style4 side-tab mr-0" data-tb-normal="bg-white" data-tb-active="txt-white bdr-default bg-default">
+				<ul class="tb-list bdr-default px-w300 f-2" data-animate-in="fadeInLeft">
+					<li class="tb">Acupuncture</li>
+					<li class="tb">Emergency Contraception</li>
+					<li class="tb">Laboratory</li>
+					<li class="tb">Nutrition Services</li>
+					<li class="tb">Prescription Medications</li>
+					<li class="tb">Primary Medical Care</li>
+					<li class="tb">Travel Medicine</li>
+					<li class="tb">Vaccinations</li>
+				</ul>
+
+				<div class="tb-content" data-animate-in="fadeInRight">
+					<div class="tb-pn pd-l-tiny" data-ckav-sm="pd-0">
+						<p><img src="{% static 'images/800x400-medical-01.jpg' %}" alt="image" class="bdr-1 bdr-white shadow-mini"></p>
+						<p class="f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quaerat similique eveniet, cum officiis reprehenderit fuga sed tempore molestiae modi illum doloremque sapiente nulla culpa debitis rerum quidem, eius alias!</p>
+						
+						<hr class="mr-tb-tiny">
+
+						<div class="row gt40 mb20">
+							<div class="col-md-6">
+								<div class="info-obj img-l g10 mini" data-ckav-sm="pd-10 mr-0">
+									<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-phone"></i></span></div>
+									<div class="info">
+										<h3 class="title mini bold-n f-2">Responsive Design</h3>
+										<p data-ckav-sm="mr-0 f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="info-obj img-l g10 mini" data-ckav-sm="pd-10 mr-0">
+									<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-copy-file"></i></span></div>
+									<div class="info">
+										<h3 class="title mini bold-n f-2">Clean & Powerful Code</h3>
+										<p data-ckav-sm="mr-0 f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="tb-pn pd-l-tiny" data-ckav-sm="pd-0">
+						<p><img src="{% static 'images/800x400-medical-02.jpg' %}" alt="image" class="bdr-1 bdr-white shadow-mini"></p>
+						<p class="f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					
+						
+						<p class="f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quaerat similique eveniet, cum officiis reprehenderit fuga sed tempore molestiae modi illum doloremque sapiente. Nulla culpa debitis rerum quidem, eius alias!</p>						
+					</div>
+
+					<div class="tb-pn pd-l-tiny" data-ckav-sm="pd-0">
+						<p class="mr-b-mini title-sub mini pd-tiny bg-white rd-6 shadow-tiny f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur.</p>
+
+						<div class="row gt40 mb20">
+							<div class="col-md-6">
+								<div class="info-obj img-l g10 mini" data-ckav-sm="pd-10 mr-0">
+									<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-phone"></i></span></div>
+									<div class="info">
+										<h3 class="title mini bold-n f-2">Responsive Design</h3>
+										<p data-ckav-sm="mr-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="info-obj img-l g10 mini" data-ckav-sm="pd-10 mr-0">
+									<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-copy-file"></i></span></div>
+									<div class="info">
+										<h3 class="title mini bold-n f-2">Clean & Powerful Code</h3>
+										<p data-ckav-sm="mr-0 f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="info-obj img-l g10 mini" data-ckav-sm="pd-10 mr-0">
+									<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-photo-gallery"></i></span></div>
+									<div class="info">
+										<h3 class="title mini bold-n f-2">Flexible Blocks</h3>
+										<p data-ckav-sm="mr-0 f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="info-obj img-l g10 mini" data-ckav-sm="pd-10 mr-0">
+									<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-paint-bucket"></i></span></div>
+									<div class="info">
+										<h3 class="title mini bold-n f-2">Easy to customize</h3>
+										<p data-ckav-sm="mr-0 f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="tb-pn pd-l-tiny" data-ckav-sm="pd-0">
+						<p><img src="{% static 'images/800x400-medical-03.jpg' %}" alt="image" class="bdr-1 bdr-white shadow-mini"></p>
+						<p class="f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quaerat similique eveniet, cum officiis reprehenderit fuga sed tempore molestiae modi illum doloremque sapiente nulla culpa debitis rerum quidem, eius alias!</p>
+						
+						<hr class="mr-tb-tiny">
+
+						<div class="row gt40 mb20">
+							<div class="col-md-6">
+								<div class="info-obj img-l g10 mini" data-ckav-sm="pd-10 mr-0">
+									<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-phone"></i></span></div>
+									<div class="info">
+										<h3 class="title mini bold-n f-2">Responsive Design</h3>
+										<p data-ckav-sm="mr-0 f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="info-obj img-l g10 mini" data-ckav-sm="pd-10 mr-0">
+									<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-copy-file"></i></span></div>
+									<div class="info">
+										<h3 class="title mini bold-n f-2">Clean & Powerful Code</h3>
+										<p data-ckav-sm="mr-0 f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="tb-pn pd-l-tiny" data-ckav-sm="pd-0">
+						<p><img src="{% static 'images/800x400-medical-04.jpg' %}" alt="image" class="bdr-1 bdr-white shadow-mini"></p>
+						<p class="f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					
+						
+						<p class="f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quaerat similique eveniet, cum officiis reprehenderit fuga sed tempore molestiae modi illum doloremque sapiente. Nulla culpa debitis rerum quidem, eius alias!</p>						
+					</div>
+
+					<div class="tb-pn pd-l-tiny" data-ckav-sm="pd-0">
+						<p class="mr-b-mini title-sub mini pd-tiny bg-white rd-6 shadow-tiny f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur.</p>
+
+						<p class="f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+
+					<div class="tb-pn pd-l-tiny" data-ckav-sm="pd-0">
+						<p class="title-sub mini f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					
+						<ul class="list-2 f-2">
+							<li><i class="fa fa-check txt-secondary"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod consectetur adipisicing</li>
+							<li><i class="fa fa-check txt-secondary"></i> Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</li>
+							<li><i class="fa fa-check txt-secondary"></i> Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo exercitation ullamco laboris exercitation ullamco laboris</li>
+							<li><i class="fa fa-check txt-secondary"></i> Consequat uis aute irure dolor in reprehenderit in voluptate velit esse</li>
+							<li><i class="fa fa-check txt-secondary"></i> Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</li>
+						</ul>						
+					</div>
+
+					<div class="tb-pn pd-l-tiny" data-ckav-sm="pd-0">
+						<div class="row gt40 mb20">
+							<div class="col-md-6 f-2">
+								<p class="mr-b-tiny pd-tiny bg-dark txt-white fs16 rd-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua</p> 
+
+								<p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
+							</div>
+							
+							<div class="col-md-6 f-2">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+						
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- ************** END : CONTENT SECTION 12 **************  -->
+
+	<!--
+	************************************************************
+	* CONTENT SECTION13
+	************************************************************ -->
+	<section class="pd-tb-medium" data-ckav-sm="pd-tb-medium align-c" id="findus">
+		
+		<div class="container small typo-light">
+			<div class="row middle-md">
+				<div class="col-md-7" data-animate-in="fadeInLeft">
+					<img src="{% static 'images/icon-check.png' %}" alt="icon" class="mr-b-tiny max-px-w150" data-ckav-sm="mr-auto">
+					<h2 class="title f-1 large" data-ckav-sm="medium">Expert doctors with 24 hours services</h2>
+					
+					<p class="mr-b-mini f-2">Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+					<a href="http://ckavart.com/" target="_blank" class="btn btn-white round solid">Book an Appointment</a>
+				</div>
+				
+				<div class="col-md-5" data-ckav-sm="pd-b-40">
+					
+				</div>
+			</div>
+			
+		</div>
+
+		<b class="full-wh bg-dark op-02 z1"></b>
+		<b class="full-vh bg-cc bg-cover" data-stellar="y" data-stellar-vertical-offset="200" data-stellar-ratio="0.8" data-ckav-sm="h100" data-bg="{% static 'images/bg-medical-02.jpg' %}"></b>
+	</section>
+	<!-- ************** END : CONTENT SECTION13 **************  -->
+
+	<!--
+	************************************************************
+	* OTHER SECTION 05
+	************************************************************ -->
+	<section class="pd-tb-small bg-default" data-ckav-sm="pd-tb-small">
+		<div class="container small typo-light">
+		
+			<div class="row gt40 mb10 middle-md">
+				<div class="col-md-7" data-animate-in="fadeInLeft">
+					<div class="shadow-tiny bg-dark">
+						
+						<!--=================================
+						= GOOGLE MAP
+						==================================-->
+						<div class="gmap-widget" 
+							data-map-height="300" 
+							data-map-latitude="-37.817136" 
+							data-map-longitude="144.955652" 
+							data-map-markerhd="Envato" 
+							data-map-markerhtml='<div class="pd-10 align-c"><h2 class="fs18 mr-b-10">Envato</h2><p class="fs16 mr-0">PO Box 16122, Collins Street West,<br>Victoria 8007, Australia</p></div>'></div>
+						<!-- ======= END :  =======  -->
+					
+						<div class="info-obj img-l g20 tiny pd-20">
+							<div class="img txt-white"><span class="iconwrp"><i class="pe-7s-map-marker"></i></span></div>
+							<div class="info">
+								<p class="mr-0">Visit our clinic</p>
+								<h3 class="title tiny">PO Box 16122, Collins Street West, Victoria 8007, Australia</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-5" data-animate-in="fadeInRight">
+					<div class="pd-l-tiny">
+						<div class="info-obj img-l g20 mini">
+							<div class="img txt-white"><span class="rd bg-dark iconwrp"><i class="pe-7s-call"></i></span></div>
+							<div class="info">
+								<p class="mr-0">Give us a call</p>
+								<h3 class="title tiny">012 345 6789</h3>
+							</div>
+						</div>
+
+						<div class="info-obj img-l g20 mini">
+							<div class="img txt-white"><span class="rd bg-dark iconwrp"><i class="pe-7s-mail"></i></span></div>
+							<div class="info">
+								<p class="mr-0">Email us on</p>
+								<h3 class="title tiny"><a href="#">medical@ckav.com</a></h3>
+							</div>
+						</div>
+						
+						<hr class="mr-tb-tiny light">
+
+						<h2 class="title mini">Opening Hours</h2>
+						<ul class="list-3">
+							<li><strong>Monday - Friday :</strong> 08:00 - 16:00</li>
+							<li><strong>Saturday :</strong> 08:00 - 16:00</li>
+							<li><strong>Sunday :</strong> 08:00 - 16:00</li>
+						</ul>
+						
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+
+	</section>
+	<!-- ************** END : OTHER SECTION 05 **************  -->
+
+	<!--
+	************************************************************
+	* COUNTER SECTION 04
+	************************************************************ -->
+	<section class="pos-rel pd-tb-small" data-ckav-sm="pd-tb-small">
+		<div class="container small">
+
+			<div class="w75 mr-auto align-c mr-b-mini" data-animate-in="fadeInUp">
+				<h2 class="title f-1" data-ckav-sm="medium">Our Achievements</h2>
+				<p class="title-sub small f-2" data-ckav-sm="small">
+					Lorem ipsum dolor sit amet, consetetur sadipscing elitr diam nonumy	eirmod tempor invidunt ut labore et dolore magna aliquyam
+				</p>
+			</div>
+			
+			<div class="row gt20 mb10 mr-b-60" data-ckav-sm="mr-b-30">
+				
+				<div class="col-md-4 align-c count-box" data-animate-in="fadeInUp|0.1">
+					<p class="title fs100 txt-default mr-0 bold-4 f-2" data-ckav-sm="large"><span class="count">7456</span>+</p>
+					<p class="title-sub small mr-0 f-2" data-ckav-sm="small">Happy smiles</p>
+				</div>
+
+				<div class="col-md-4 align-c count-box" data-animate-in="fadeInUp|0.2">
+					<p class="title fs100 txt-default mr-0 bold-4 f-2" data-ckav-sm="large"><span class="count">20</span>+</p>
+					<p class="title-sub small mr-0 f-2" data-ckav-sm="small">Years of experience</p>
+				</div>
+
+				<div class="col-md-4 align-c count-box" data-animate-in="fadeInUp|0.3">
+					<p class="title fs100 txt-default mr-0 bold-4 f-2" data-ckav-sm="large"><span class="count">50</span>+</p>
+					<p class="title-sub small mr-0 f-2" data-ckav-sm="small">Expert staff</p>
+				</div>
+
+			</div>
+
+			<div class="row gt20 mb20 align-c middle-md" data-animate-in="fadeIn">
+				<div class="col-md-4"><hr></div>
+				<div class="col-md-4">
+					<a href="http://ckavart.com/" target="_blank" class="btn btn-dark solid bdr-2 bold-n mr-auto round" data-ckav-sm="medium">Book an Appointment</a>
+				</div>
+				<div class="col-md-4"><hr></div>
+			</div>
+
+		</div>
+	</section>
+	<!-- ************** END : COUNTER SECTION 04 **************  -->
+
+	<!--
+	************************************************************
+	* TESTIMONIAL 06
+	************************************************************ -->
+	<section class="pd-tb-small bg-gray" data-ckav-sm="pd-tb-small align-c" id="testimonials">
+		<div class="container small">
+			<h2 class="title f-1 mr-b-mini align-c" data-ckav-sm="medium" data-animate-in="fadeInUp">What our customers say</h2>
+			
+			<div class="info-obj img-l g10 medium w75 mr-auto mr-b-mini" data-ckav-sm="img-t" data-animate-in="fadeInUp|0.1">
+				<div class="img mr-t-micro"><img class="rd" src="{% static 'images/person-01.jpg' %}" alt="person"></div>
+				<div class="info bg-white shadow-tiny pd-mini rd-20" data-ckav-sm="bdr-reset pd-20">
+					<p class="fs16 f-2">Lorem ipsum dolor sit amet, optio exercitationem id, sapiente ea rerum illo, labore voluptatem voluptates! Ea repellendus omnis tempora, impedit numquam. Voluptas atque, dignissimos quisquam.</p>
+					<h3 class="title mini bold-n mr-0 f-2">Oupsum dolor</h3>
+					<em class="fs12 f-2">Creative Director</em>
+				</div>
+			</div>
+
+			<div class="info-obj img-r g10 medium w75 mr-auto" data-ckav-sm="img-t" data-animate-in="fadeInUp|0.2">
+				<div class="img mr-t-micro"><img class="rd" src="{% static 'images/person-02.jpg' %}" alt="person"></div>
+				<div class="info bg-white shadow-tiny pd-mini rd-20" data-ckav-sm="bdr-reset pd-20">
+					<p class="fs16 f-2">Lorem ipsum dolor sit amet, optio exercitationem id, sapiente ea rerum illo, labore voluptatem voluptates! Ea repellendus omnis tempora, impedit numquam. Voluptas atque, dignissimos quisquam.</p>
+					<h3 class="title mini bold-n mr-0 f-2">Oupsum dolor</h3>
+					<em class="fs12 f-2">Creative Director</em>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<!-- ************** END : TESTIMONIAL 06 **************  -->
+
+	<!--
+	************************************************************
+	* SUBSCRIBE SECTION
+	************************************************************ -->
+	<section class="pd-tb-small shadow-medium pos-rel z1" data-ckav-sm="pd-tb-small">
+		<div class="container small" data-ckav-sm="align-c" data-animate-in="fadeIn">
+			<div class="w75 mr-auto align-c">
+				<p class="title-sub small mr-b-10 f-2">What are waiting for?</p>
+				<h2 class="title mr-b-tiny f-1" data-ckav-sm="medium">Join our network to stay updated</h2>
+
+				<!--=================================
+				= FORM
+				==================================-->
+				<div class="subscribe-block _2 large">
+					<form action="form-data/notify-me.php" class="form-widget" data-formtype="newsletter">
+						<div class="form-group">
+							<button type="submit" data-loading-text="Pleae wait.." class="btn btn-default hov-btn-dark solid fs26"><i class="far fa-envelope"></i></button>
+							<input class="form-control bdr-2 bdr-default w100" data-label="Email" data-msg="Please enter email." type="email" name="email" placeholder="Enter your email">
+						</div>
+					</form>
+				</div><!-- ======= END : =======  -->
+			</div>
+		</div>
+	</section>
+	<!-- ************** END : SUBSCRIBE SECTION **************  -->
+
+	<!--
+	************************************************************
+	* SOCIAL ACTION
+	************************************************************ -->
+	<section class="pd-0 align-c bg-gray">
+		<div class="container small">
+			<div class="row" data-animate-in="fadeIn">
+				<div class="col-md col-xs-4">
+					<a href="http://ckavart.com/" target="_blank" class="h100 block fs30 pd-mini btn-dark hov-btn-default"><i class="fab fa-facebook-f"></i></a>
+				</div>
+				
+				<div class="col-md col-xs-4">
+					<a href="http://ckavart.com/" target="_blank" class="h100 block fs30 pd-mini btn-dark hov-btn-default"><i class="fab fa-twitter"></i></a>
+				</div>
+
+				<div class="col-md col-xs-4">
+					<a href="http://ckavart.com/" target="_blank" class="h100 block fs30 pd-mini btn-dark hov-btn-default"><i class="fab fa-google"></i></a>
+				</div>
+
+				<div class="col-md col-xs-4">
+					<a href="http://ckavart.com/" target="_blank" class="h100 block fs30 pd-mini btn-dark hov-btn-default"><i class="fab fa-youtube"></i></a>
+				</div>
+
+				<div class="col-md col-xs-4">
+					<a href="http://ckavart.com/" target="_blank" class="h100 block fs30 pd-mini btn-dark hov-btn-default"><i class="fab fa-tumblr"></i></a>
+				</div>
+
+				<div class="col-md col-xs-4">
+					<a href="http://ckavart.com/" target="_blank" class="h100 block fs30 pd-mini btn-dark hov-btn-default"><i class="fab fa-pinterest-p"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ************** END : SOCIAL ACTION **************  -->
+
+	<!--
+	************************************************************
+	* FOOTER SECTION 07
+	************************************************************ -->
+	<footer class="pos-rel pd-tb-mini bg-dark" data-ckav-sm="pd-tb-small align-c" id="contact">
+		<div class="container small typo-light">
+			
+			<div class="row gt40 mb20">
+				<div class="col-md-8">
+					<div class="row gt20 mb20">
+						<div class="col-md-4" data-animate-in="fadeIn|0.1">
+							<h3 class="title mini bold-n">Experts</h3>
+							<ul class="list-1 txt-white op-06">
+								<li><a href="http://ckavart.com/" target="_blank" class="link-white">Dr. Jessica Doe</a></li>
+								<li><a href="http://ckavart.com/" target="_blank" class="link-white">Dr. Alma Gomez</a></li>
+								<li><a href="http://ckavart.com/" target="_blank" class="link-white">Dr. Peggy Washington</a></li>
+								<li><a href="http://ckavart.com/" target="_blank" class="link-white">Dr. Lydia Park</a></li>
+							</ul>
+						</div>
+						
+						<div class="col-md-4" data-animate-in="fadeIn|0.2">
+							<h3 class="title mini bold-n">About us</h3>
+							<ul class="list-1 txt-white op-06">
+								<li><a href="http://ckavart.com/" target="_blank" class="link-white">About us</a></li>
+								<li><a href="http://ckavart.com/" target="_blank" class="link-white">Careers</a></li>
+								<li><a href="http://ckavart.com/" target="_blank" class="link-white">Services</a></li>
+								<li><a href="http://ckavart.com/" target="_blank" class="link-white">Advertise</a></li>
+							</ul>
+						</div>
+
+						<div class="col-md-4" data-animate-in="fadeIn|0.3">
+							<h3 class="title mini bold-n">Support</h3>
+							<ul class="list-1 txt-white op-06">
+								<li><a href="http://ckavart.com/" target="_blank" class="link-white">FAQ</a></li>
+								<li><a href="http://ckavart.com/" target="_blank" class="link-white">Help center</a></li>
+								<li><a href="http://ckavart.com/" target="_blank" class="link-white">Contact us</a></li>
+								<li><a href="http://ckavart.com/" target="_blank" class="link-white">Feedback</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4" data-animate-in="fadeIn|0.4">
+					<p><img src="{% static 'images/logo-light.png' %}" alt="Logo" class="max-px-w100" data-ckav-sm="mr-auto"></p>
+					
+					<p>PO Box 16122, Collins Street West, Victoria 8007, Australia</p>
+
+					<p><a href="mailto:abc@xyz.com">abc@xyz.com</a></p>
+				</div>
+
+			</div>
+			
+			<hr class="mr-tb-10 light" data-ckav-sm="mr-tb-10">
+			
+			<div class="row gt20">
+				<div class="col-md-6">
+					<p><a href="http://ckavart.com/" target="_blank">CKavArt</a> &copy; <span class="copyright-year"></span></p>
+				</div>
+				
+				<div class="col-md-6 align-r" data-ckav-sm="align-c">
+					<a href="http://ckavart.com/">Privacy policy</a>
+					<span class="mr-lr-10">|</span>
+					<a href="http://ckavart.com/">Terms and conditions</a>
+				</div>
+			</div>
+			
+		</div>
+	</footer>
+	<!-- ************** END : FOOTER SECTION 07 **************  -->
+
+	
+	<!-- GOOGLE FONTS -->
+	<script>
+	/* Use fonts with class name in sequence => f-1, f-2, f-3 .... */
+	var fgroup = [
+		'Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i',
+		'Open Sans:300,300i,400,400i,600,600i,700,700i,800,800i'
+	];
+	</script>
+
+</div>
+<!-- /#page --> 
+
+<script src="{% static 'js/webfonts.js' %}" type="text/javascript"></script>
+
+<script src="{% static 'lib/jquery/jquery-3.3.1.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/jquery/jquery-migrate-3.0.0.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/jquery/popper.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/bootstrap/js/bootstrap.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/jquery-smooth-scroll/jquery.smooth-scroll.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/jQuery-viewport-checker/jquery.viewportchecker.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/Swiper/js/swiper.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/owl-carousel/owl.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/Magnific-Popup/jquery.magnific-popup.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/isotope/imagesloaded.pkgd.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/isotope/isotope.pkgd.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/isotope/packery-mode.pkgd.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/jQuery-Countdown/jquery-countdown.js' %}" type="text/javascript"></script>
+
+<script src="{% static 'lib/sweetalert/sweetalert2.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/jquery-validation/jquery.validate.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/youtubebackground/jquery.youtubebackground.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/Vide/jquery.vide.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/vegas/vegas.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/materialize-parallax/materialize-parallax.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/countUp/countUp.js' %}" type="text/javascript"></script>
+<script src="{% static 'lib/stellar/jquery.stellar.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/enquire.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>
