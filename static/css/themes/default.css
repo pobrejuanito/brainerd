@@ -50,7 +50,7 @@
   /*----------  Sub menu  ----------*/
 }
 .main-head .menu-item > a {
-  color: #1f2229;
+  color: #423f3b;
 }
 .main-head .menu-item > a:hover,
 .main-head .menu-item.active > a {
@@ -61,7 +61,7 @@
 }
 .main-head .menu-item > .sub li a {
   opacity: 0.6;
-  color: #1f2229;
+  color: #423f3b;
 }
 .main-head .menu-item > .sub li a:hover {
   opacity: 1;
@@ -109,7 +109,7 @@
   border-color: rgba(255, 255, 255, 0.2);
 }
 .main-head.dark .menu-item .sub {
-  background: #1f2229;
+  background: #423f3b;
 }
 .main-head.dark .menu-item > .sub li a {
   opacity: 0.6;
@@ -120,7 +120,7 @@
 }
 .main-head.dark .has-dropdown .dropdown,
 .main-head.dark .has-dropdown .sub {
-  background: #1f2229;
+  background: #423f3b;
   border: 1px solid rgba(0, 0, 0, 0.4);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
 }
@@ -150,45 +150,45 @@
   background-color: #ffffff !important;
 }
 .dark.header-sticky {
-  background-color: #1f2229 !important;
+  background-color: #423f3b !important;
 }
 @media (min-width: 200px) and (max-width: 991px) {
   .main-head {
     background-color: #ffffff !important;
   }
   .dark.main-head {
-    background-color: #1f2229 !important;
+    background-color: #423f3b !important;
   }
 }
 /* Button colors
 =========================*/
 .btn-default {
   background-color: transparent;
-  border-color: #0095fb;
-  color: #0095fb;
+  border-color: #ffe5a9;
+  color: #ffe5a9;
 }
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
 .btn-default.active {
-  background-color: #0095fb;
-  border-color: #0095fb;
+  background-color: #ffe5a9;
+  border-color: #ffe5a9;
   color: #ffffff;
 }
 .solid.btn-default {
-  border-color: #0095fb;
-  color: #ffffff;
+  border-color: #ffe5a9;
+  color: #423f3b;
 }
 .solid.btn-default:not([class*="bg-glass-"]) {
-  background-color: #0095fb;
+  background-color: #ffe5a9;
 }
 .solid.btn-default:hover,
 .solid.btn-default:focus,
 .solid.btn-default:active,
 .solid.btn-default.active {
   background-color: transparent;
-  border-color: #0095fb;
-  color: #0095fb;
+  border-color: #ffd677;
+  color: #423f3b;
 }
 .btn-primary {
   background-color: transparent;
@@ -248,31 +248,31 @@
 }
 .btn-dark {
   background-color: transparent;
-  border-color: #1f2229;
-  color: #1f2229;
+  border-color: #423f3b;
+  color: #423f3b;
 }
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active,
 .btn-dark.active {
-  background-color: #1f2229;
-  border-color: #1f2229;
+  background-color: #423f3b;
+  border-color: #423f3b;
   color: #ffffff;
 }
 .solid.btn-dark {
-  border-color: #1f2229;
+  border-color: #423f3b;
   color: #ffffff;
 }
 .solid.btn-dark:not([class*="bg-glass-"]) {
-  background-color: #1f2229;
+  background-color: #423f3b;
 }
 .solid.btn-dark:hover,
 .solid.btn-dark:focus,
 .solid.btn-dark:active,
 .solid.btn-dark.active {
   background-color: transparent;
-  border-color: #1f2229;
-  color: #1f2229;
+  border-color: #423f3b;
+  color: #423f3b;
 }
 .btn-light {
   background-color: transparent;
@@ -285,11 +285,11 @@
 .btn-light.active {
   background-color: #e1f2fb;
   border-color: #e1f2fb;
-  color: #1f2229;
+  color: #423f3b;
 }
 .solid.btn-light {
   border-color: #e1f2fb;
-  color: #1f2229;
+  color: #423f3b;
 }
 .solid.btn-light:not([class*="bg-glass-"]) {
   background-color: #e1f2fb;
@@ -313,11 +313,11 @@
 .btn-white.active {
   background-color: #ffffff;
   border-color: #ffffff;
-  color: #1f2229;
+  color: #423f3b;
 }
 .solid.btn-white {
   border-color: #ffffff;
-  color: #1f2229;
+  color: #423f3b;
 }
 .solid.btn-white:not([class*="bg-glass-"]) {
   background-color: #ffffff;
@@ -332,8 +332,8 @@
 }
 .hov-btn-default:hover,
 .solid.hov-btn-default:hover {
-  background-color: #0095fb;
-  border-color: #0095fb;
+  background-color: #ffe5a9;
+  border-color: #ffe5a9;
   color: #ffffff;
 }
 .hov-btn-primary:hover,
@@ -350,21 +350,21 @@
 }
 .hov-btn-dark:hover,
 .solid.hov-btn-dark:hover {
-  background-color: #1f2229;
-  border-color: #1f2229;
+  background-color: #423f3b;
+  border-color: #423f3b;
   color: #ffffff;
 }
 .hov-btn-light:hover,
 .solid.hov-btn-light:hover {
   background-color: #e1f2fb;
   border-color: #e1f2fb;
-  color: #1f2229;
+  color: #423f3b;
 }
 .hov-btn-white:hover,
 .solid.hov-btn-white:hover {
   background-color: #ffffff;
   border-color: #ffffff;
-  color: #1f2229;
+  color: #423f3b;
 }
 /* Border other colors
 =========================*/
@@ -374,7 +374,7 @@
 .bdr-default.row-sep > [class*="flex-col-"],
 .bdr-default.form-control,
 .bdr-default {
-  border-color: #0095fb;
+  border-color: #ffe5a9;
 }
 .bdr-primary,
 .bdr-primary.row-bdr,
@@ -398,7 +398,7 @@
 .bdr-dark.row-sep > [class*="flex-col-"],
 .bdr-dark.form-control,
 .bdr-dark {
-  border-color: #1f2229;
+  border-color: #423f3b;
 }
 .bdr-light,
 .bdr-light.row-bdr,
@@ -425,7 +425,7 @@
 .hov-bdr-default:hover.form-control,
 .hov-bdr-default:focus.form-control,
 .hov-bdr-default:hover {
-  border-color: #0095fb;
+  border-color: #ffe5a9;
 }
 .hov-bdr-primary:hover,
 .hov-bdr-primary:hover.row-bdr,
@@ -452,7 +452,7 @@
 .hov-bdr-dark:hover.form-control,
 .hov-bdr-dark:focus.form-control,
 .hov-bdr-dark:hover {
-  border-color: #1f2229;
+  border-color: #423f3b;
 }
 .hov-bdr-light:hover,
 .hov-bdr-light:hover.row-bdr,
@@ -727,7 +727,7 @@ h6,
 .hd-5,
 .hd-6,
 .title-sub {
-  color: #1f2229;
+  color: #423f3b;
 }
 .typo-light h1,
 .typo-light h2,
@@ -747,16 +747,16 @@ h6,
 =========================*/
 .dark.list-2,
 .dark.list-2 li > i {
-  color: #1f2229;
+  color: #423f3b;
 }
 /* Tag text
 =========================*/
 .tag-text {
-  background-color: #1f2229;
+  background-color: #423f3b;
   color: #ffffff;
 }
 .tag-text.bg-white:not([class*="txt-dark"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]) {
-  color: #1f2229;
+  color: #423f3b;
 }
 .bg-dark.tag-text:not([class*="txt-"]),
 .bg-default.tag-text:not([class*="txt-"]),
@@ -769,7 +769,7 @@ h6,
 .txt-default,
 .typo-light .txt-default,
 .txt-default:hover {
-  color: #0095fb;
+  color: #ffe5a9;
 }
 .txt-primary,
 .typo-light .txt-primary,
@@ -784,7 +784,7 @@ h6,
 .txt-dark,
 .typo-light .txt-dark,
 .txt-dark:hover {
-  color: #1f2229;
+  color: #423f3b;
 }
 .txt-light,
 .typo-light .txt-light,
@@ -802,7 +802,7 @@ h6,
 /* Text hover colors
 =========================*/
 .hov-txt-default:hover {
-  color: #0095fb;
+  color: #ffe5a9;
 }
 .hov-txt-primary:hover {
   color: #fa5a00;
@@ -811,7 +811,7 @@ h6,
   color: #6cbc35;
 }
 .hov-txt-dark:hover {
-  color: #1f2229;
+  color: #423f3b;
 }
 .hov-txt-light:hover {
   color: #e1f2fb;
@@ -823,7 +823,7 @@ h6,
 =========================*/
 .link-default,
 a.link-default {
-  color: #0095fb;
+  color: #ffe5a9;
 }
 .link-primary,
 a.link-primary {
@@ -835,7 +835,7 @@ a.link-secondary {
 }
 .link-dark,
 a.link-dark {
-  color: #1f2229;
+  color: #423f3b;
 }
 .link-light,
 a.link-light {
@@ -848,7 +848,7 @@ a.link-white {
 /* Background colors
 =========================*/
 .bg-default {
-  background-color: #0095fb;
+  background-color: #ffe5a9;
 }
 .bg-primary {
   background-color: #fa5a00;
@@ -857,7 +857,7 @@ a.link-white {
   background-color: #6cbc35;
 }
 .bg-dark {
-  background-color: #1f2229;
+  background-color: #423f3b;
 }
 .bg-light {
   background-color: #e1f2fb;
@@ -871,7 +871,7 @@ a.link-white {
 /* Background hover colors
 =========================*/
 .hov-bg-default:hover {
-  background-color: #0095fb;
+  background-color: #ffe5a9;
 }
 .hov-bg-primary:hover {
   background-color: #fa5a00;
@@ -880,7 +880,7 @@ a.link-white {
   background-color: #6cbc35;
 }
 .hov-bg-dark:hover {
-  background-color: #1f2229;
+  background-color: #423f3b;
 }
 .hov-bg-light:hover {
   background-color: #e1f2fb;
@@ -950,7 +950,7 @@ a.link-white {
     background-color: #ffffff;
   }
   .dark.nav-sticky {
-    background-color: #1f2229 !important;
+    background-color: #423f3b !important;
   }
   /*.bg-glass, 
 	.nav-wrp.bg-glass:not(.nav-sticky)*/
@@ -965,20 +965,20 @@ a.link-white {
   }
   .nav-wrp.dark.navbar-fixed-top,
   .dark.nav-sticky {
-    background-color: #1f2229 !important;
+    background-color: #423f3b !important;
   }
 }
 .tab-style1 .tb-list > li.active.default {
-  background-color: #0095fb;
+  background-color: #ffe5a9;
 }
 .tab-style1 .tb-list > li.active.default {
   color: #ffffff;
 }
 .tab-style1 .tb-list:not([class*="bdr-default"]):not([class*="bdr-primary"]):not([class*="bdr-secondary"]):not([class*="bdr-white"]):not([class*="bdr-dark"]) {
-  border-color: #0095fb;
+  border-color: #ffe5a9;
 }
 .tab-style1 .tb-content.default {
-  background-color: #0095fb;
+  background-color: #ffe5a9;
 }
 /*.tab-style1 {
 		.@{name}.tb-list:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
@@ -996,22 +996,22 @@ a.link-white {
 		border-left-color: @color;
 	}*/
 .tab-style2 .default.tb-list:not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) > li.active:not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
-  border-color: #0095fb;
+  border-color: #ffe5a9;
   color: #ffffff;
 }
 .tab-style2.side-tab .default.tb-list > li.active {
-  border-color: #0095fb;
+  border-color: #ffe5a9;
   color: #ffffff;
 }
 .tab-style3 .default.tb-list:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
-  background-color: #0095fb;
+  background-color: #ffe5a9;
 }
 .tab-style3 .default.tb-list:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) > li.active:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
   color: #ffffff;
 }
 .tab-style4 .default.tb-list > li.active:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
-  background-color: #0095fb;
-  border-color: #0095fb;
+  background-color: #ffe5a9;
+  border-color: #ffe5a9;
   color: #ffffff;
 }
 .tab-style1 .tb-list > li.active.primary {
@@ -1107,16 +1107,16 @@ a.link-white {
   color: #ffffff;
 }
 .tab-style1 .tb-list > li.active.dark {
-  background-color: #1f2229;
+  background-color: #423f3b;
 }
 .tab-style1 .tb-list > li.active.dark {
   color: #ffffff;
 }
 .tab-style1 .tb-list:not([class*="bdr-default"]):not([class*="bdr-primary"]):not([class*="bdr-secondary"]):not([class*="bdr-white"]):not([class*="bdr-dark"]) {
-  border-color: #1f2229;
+  border-color: #423f3b;
 }
 .tab-style1 .tb-content.dark {
-  background-color: #1f2229;
+  background-color: #423f3b;
 }
 /*.tab-style1 {
 		.@{name}.tb-list:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
@@ -1134,22 +1134,22 @@ a.link-white {
 		border-left-color: @color;
 	}*/
 .tab-style2 .dark.tb-list:not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) > li.active:not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
-  border-color: #1f2229;
+  border-color: #423f3b;
   color: #ffffff;
 }
 .tab-style2.side-tab .dark.tb-list > li.active {
-  border-color: #1f2229;
+  border-color: #423f3b;
   color: #ffffff;
 }
 .tab-style3 .dark.tb-list:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
-  background-color: #1f2229;
+  background-color: #423f3b;
 }
 .tab-style3 .dark.tb-list:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) > li.active:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
   color: #ffffff;
 }
 .tab-style4 .dark.tb-list > li.active:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
-  background-color: #1f2229;
-  border-color: #1f2229;
+  background-color: #423f3b;
+  border-color: #423f3b;
   color: #ffffff;
 }
 .tab-style1 .tb-list > li.active.light {
@@ -1202,7 +1202,7 @@ a.link-white {
   background-color: #f4f5f5;
 }
 .tab-style1 .tb-list > li.active.gray {
-  color: #1f2229;
+  color: #423f3b;
 }
 .tab-style1 .tb-list:not([class*="bdr-default"]):not([class*="bdr-primary"]):not([class*="bdr-secondary"]):not([class*="bdr-white"]):not([class*="bdr-dark"]) {
   border-color: #f4f5f5;
@@ -1227,28 +1227,28 @@ a.link-white {
 	}*/
 .tab-style2 .gray.tb-list:not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) > li.active:not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
   border-color: #f4f5f5;
-  color: #1f2229;
+  color: #423f3b;
 }
 .tab-style2.side-tab .gray.tb-list > li.active {
   border-color: #f4f5f5;
-  color: #1f2229;
+  color: #423f3b;
 }
 .tab-style3 .gray.tb-list:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
   background-color: #f4f5f5;
 }
 .tab-style3 .gray.tb-list:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) > li.active:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
-  color: #1f2229;
+  color: #423f3b;
 }
 .tab-style4 .gray.tb-list > li.active:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
   background-color: #f4f5f5;
   border-color: #f4f5f5;
-  color: #1f2229;
+  color: #423f3b;
 }
 .tab-style1 .tb-list > li.active.white {
   background-color: #ffffff;
 }
 .tab-style1 .tb-list > li.active.white {
-  color: #1f2229;
+  color: #423f3b;
 }
 .tab-style1 .tb-list:not([class*="bdr-default"]):not([class*="bdr-primary"]):not([class*="bdr-secondary"]):not([class*="bdr-white"]):not([class*="bdr-dark"]) {
   border-color: #ffffff;
@@ -1273,20 +1273,20 @@ a.link-white {
 	}*/
 .tab-style2 .white.tb-list:not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) > li.active:not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
   border-color: #ffffff;
-  color: #1f2229;
+  color: #423f3b;
 }
 .tab-style2.side-tab .white.tb-list > li.active {
   border-color: #ffffff;
-  color: #1f2229;
+  color: #423f3b;
 }
 .tab-style3 .white.tb-list:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
   background-color: #ffffff;
 }
 .tab-style3 .white.tb-list:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) > li.active:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
-  color: #1f2229;
+  color: #423f3b;
 }
 .tab-style4 .white.tb-list > li.active:not([class*="bg-"]):not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
   background-color: #ffffff;
   border-color: #ffffff;
-  color: #1f2229;
+  color: #423f3b;
 }

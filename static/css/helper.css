@@ -92,10 +92,10 @@ svg {
   max-height: 100%;
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   color: #777777;
   line-height: 1.5;
-  font-size: 14px;
+  font-size: 15px;
 }
 [data-pageloader="y"] #page {
   opacity: 0;
@@ -936,10 +936,10 @@ Search field
 /* Buttons
 =========================*/
 .btn {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   border-radius: 3px;
   padding: 12px 20px;
-  font-size: 16px;
+  font-size: 17px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 1px solid transparent;
@@ -1403,7 +1403,7 @@ h4,
 h5,
 h6,
 .tb-list {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 h1,
 .hd-1 {
@@ -1898,13 +1898,13 @@ ul.row {
 /* Font family
 =========================*/
 .f-1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 .f-2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 .f-3 {
-  font-family: 'Rancho', cursive;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 [class*="link-"]:hover {
   text-decoration: underline;

@@ -208,7 +208,7 @@ HEADER
   display: block;
 }
 .main-head .header-logo img {
-  max-height: 40px;
+  max-height: 80px;
   max-width: 100%;
 }
 .head-overlay {
@@ -229,7 +229,7 @@ HEADER
   display: none;
 }
 .header-sticky .header-logo img {
-  max-height: 30px;
+  max-height: 70px;
 }
 .header-sticky > [class*="pd-tb"] {
   padding-top: 0;
@@ -2572,7 +2572,7 @@ Page loader css
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.8);
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-weight: 600;
   text-align: center;
 }
