@@ -104,7 +104,7 @@
     /* position: static; */
   }
   .main-head .header-logo img {
-    max-height: 30px;
+    max-height: 60px;
   }
   .main-head[class*="px-h"],
   .main-head[class*="min-px-h"],
