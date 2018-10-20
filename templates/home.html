@@ -121,7 +121,7 @@
 					==================================-->
 					<div class="form-block mr-auto" data-ckav-sm="pd-20">
 						<div class="bg-dark pd-mini rd-6 mr-b-micro" data-ckav-sm="pd-30" data-animate-in="fadeIn">
-							<h3 class="title txt-white f-1" data-ckav-sm="small">Sang H. Yoon DDS</h3>
+							<h3 class="title txt-white f-1" data-ckav-sm="small" style="font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">SANG H. YOON DDS</h3>
 							<p class="txt-white op-08" data-ckav-sm="small mr-0">Your neighbourhood family dentist in the greater Chattanooga area, including East Ridge!</p>
 						</div>
 						<div class="pos-rel -mr-t-40 mr-b-micro"><span class="sq60 iconbox rd txt-white fs20 bg-default shadow-mini" data-animate-in="fadeInUp|0.1"><i class="fa fa-arrow-down"></i></span></div>
@@ -169,8 +169,8 @@
 					</div>
 					<div class="modal-body" ng-show="!is_sent">
                      <div class="col-md-12">
-                           <div class="form-block bg-gray rd-10 pd-mini" data-ckav-sm="pd-20">
-                           <p>We will do our best to contact you within one (1) business day at the phone number provided to schedule your appointment. We will make every attempt possible to accommodate your appointment request and look forward to seeing you soon!</p>
+                           <div class="form-block rd-10" data-ckav-sm="pd-20">
+                           <p>We will do our best to contact you within one business day at the phone number provided to schedule your appointment. We will make every attempt possible to accommodate your appointment request and look forward to seeing you soon!</p>
                            <form id="appointmentForm" name="appointmentForm" novalidate>
                               {% csrf_token %}
                               <div class="form-process"></div>
@@ -208,7 +208,7 @@
                                  </div>
                               </div>
                               <div class="col_full">
-                                 <button ng-click="send()" ng-disabled="appointmentForm.$invalid" class="btn solid btn-dark hov-btn-default" id="appointmentForm-submit" name="appointmentForm-submit" value="submit">Send Message</button>
+                                 <button ng-click="send()" ng-disabled="appointmentForm.$invalid" class="btn btn-dark hov-btn-default solid" id="appointmentForm-submit" name="appointmentForm-submit" value="submit">Send Message</button>
                               </div>
                            </form>
                         </div>
@@ -233,7 +233,7 @@
 		<div class="pd-t-small bg-default pd-b-10" data-ckav-sm="pd-tb-small align-c" data-animate-in="fadeIn">
 			<div class="container small align-c typo-light">
 				<div class="w60 mr-auto mr-b-mini">
-					<h2 class="title f-1" style="color: #423f3b;" data-ckav-sm="medium">New Patients Welcome!</h2>
+					<h2 class="title f-1" style="color: #423f3b; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;" data-ckav-sm="medium">New Patients Welcome!</h2>
 					<p style="color: #423f3b;">We offer an extensive range of preventative, restorative and cosmetic dental procedures for patients of all ages in the Chattanooga, TN area. Dr. Sang Yoon and their highly skilled staff members work together to ensure every one of their patients have access to the most innovative procedures in dentistry.</p>
 				</div>
 
@@ -277,8 +277,8 @@
 	<section class="pd-tb-small bg-gray" id="about" data-ckav-sm="pd-tb-small">
 		<div class="container small">
 			<div class="w75 mr-auto mr-b-mini align-c" data-animate-in="fadeInUp|0.1">
-				<h2 class="title f-1" data-ckav-sm="medium">About our practice</h2>
-				<p class="f-2">We offer an extensive range of preventative, restorative and cosmetic dental procedures for patients of all ages in the Chattanooga, TN area. Dr. Sang Yoon and their highly skilled staff members work together to ensure every one of their patients have access to the most innovative procedures in dentistry.</p>
+				<h2 class="title f-1" data-ckav-sm="medium" style="font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">About our practice</h2>
+				<p class="f-2">We offer an extensive range of preventative, restorative and cosmetic dental procedures for patients of all ages in Chattanooga.</p>
 			</div>
 
 			
@@ -291,40 +291,15 @@
 					<li class="tb">Veneers</li>
 					<li class="tb">Dental Implants</li>
 					<li class="tb">Dentures</li>
-					<li class="tb">Vaccinations</li>
 				</ul>
 
 				<div class="tb-content" data-animate-in="fadeInRight">
 					<div class="tb-pn pd-l-tiny" data-ckav-sm="pd-0">
-						<p><img src="{% static 'images/800x400-medical-01.jpg' %}" alt="image" class="bdr-1 bdr-white shadow-mini"></p>
+						<p><img src="{% static 'images/drsangyoon.jpg' %}" alt="image" class="bdr-1 bdr-white shadow-mini"></p>
 						<p class="f-2">
-                     Dr. Sang H. Yoon has practiced dentistry since 2001. He graduated from Loma Linda University Dental School in Loma Linda, California. He is a General Dentist who also does Extractions, Root Canal Treatment and Implants. We work with most insurance plans. We welcome you to our office!
+                     Dr. Sang H. Yoon has practiced dentistry since 2001. He graduated from Loma Linda University Dental School in Loma Linda, California. He is a General Dentist who also does Extractions, Root Canal Treatment and Implants.
+                     Dr. Yoon and their highly skilled staff members work together to ensure every one of their patients have access to the most innovative procedures in dentistry.
                   </p>
-						<!--
-						<hr class="mr-tb-tiny">
-
-						<div class="row gt40 mb20">
-							<div class="col-md-6">
-								<div class="info-obj img-l g10 mini" data-ckav-sm="pd-10 mr-0">
-									<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-phone"></i></span></div>
-									<div class="info">
-										<h3 class="title mini bold-n f-2">Responsive Design</h3>
-										<p data-ckav-sm="mr-0 f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-6">
-								<div class="info-obj img-l g10 mini" data-ckav-sm="pd-10 mr-0">
-									<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-copy-file"></i></span></div>
-									<div class="info">
-										<h3 class="title mini bold-n f-2">Clean & Powerful Code</h3>
-										<p data-ckav-sm="mr-0 f-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-									</div>
-                     </div>
-							</div>
-                  </div>
-                  -->
 					</div>
 
 					<div class="tb-pn pd-l-tiny" data-ckav-sm="pd-0">
@@ -460,36 +435,6 @@
 						</ul>						
 					</div>
 
-					<div class="tb-pn pd-l-tiny" data-ckav-sm="pd-0">
-						<div class="row gt40 mb20">
-							<div class="col-md-6 f-2">
-								<p class="mr-b-tiny pd-tiny bg-dark txt-white fs16 rd-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua</p> 
-
-								<p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
-							</div>
-							
-							<div class="col-md-6 f-2">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							</div>
-						</div>
-						
-					</div>
-
 				</div>
 			</div>
 
@@ -511,7 +456,7 @@
 					
 					<p class="mr-b-mini f-2">We utilize the most up-to-date practices and technology in cosmetic dental care.  Our treatment specializations include teeth whitening, Invisalign, dental fillings, Lumineers, porcelain veneers, crowns, and bridges.</p>
 
-					<a href="http://ckavart.com/" target="_blank" class="btn btn-white round solid">Book an Appointment</a>
+					<a href="#" class="btn btn-white round solid" data-toggle="modal" data-target="#appointmentFormModal">Book an Appointment</a>
 				</div>
 				
 				<div class="col-md-5" data-ckav-sm="pd-b-40">
@@ -533,35 +478,26 @@
 		<div class="container small">
 
 			<div class="w75 mr-auto align-c mr-b-mini" data-animate-in="fadeInUp">
-				<h2 class="title f-1" data-ckav-sm="medium">Our Achievements</h2>
-				<p class="title-sub small f-2" data-ckav-sm="small">
-					Lorem ipsum dolor sit amet, consetetur sadipscing elitr diam nonumy	eirmod tempor invidunt ut labore et dolore magna aliquyam
-				</p>
+				<h2 class="title f-1" data-ckav-sm="medium">You Deserve a Billion Dollar Smile</h2>
 			</div>
 			
 			<div class="row gt20 mb10 mr-b-60" data-ckav-sm="mr-b-30">
 				
-				<div class="col-md-4 align-c count-box" data-animate-in="fadeInUp|0.1">
-					<p class="title fs100 txt-default mr-0 bold-4 f-2" data-ckav-sm="large"><span class="count">7456</span>+</p>
+				<div class="col-md-6 align-c count-box" data-animate-in="fadeInUp|0.1">
+					<p class="title fs100 txt-dark mr-0 bold-4 f-2" data-ckav-sm="large"><span class="count">1000</span>+</p>
 					<p class="title-sub small mr-0 f-2" data-ckav-sm="small">Happy smiles</p>
 				</div>
 
-				<div class="col-md-4 align-c count-box" data-animate-in="fadeInUp|0.2">
-					<p class="title fs100 txt-default mr-0 bold-4 f-2" data-ckav-sm="large"><span class="count">20</span>+</p>
+				<div class="col-md-6 align-c count-box" data-animate-in="fadeInUp|0.2">
+					<p class="title fs100 txt-dark mr-0 bold-4 f-2" data-ckav-sm="large"><span class="count">17</span>+</p>
 					<p class="title-sub small mr-0 f-2" data-ckav-sm="small">Years of experience</p>
 				</div>
-
-				<div class="col-md-4 align-c count-box" data-animate-in="fadeInUp|0.3">
-					<p class="title fs100 txt-default mr-0 bold-4 f-2" data-ckav-sm="large"><span class="count">50</span>+</p>
-					<p class="title-sub small mr-0 f-2" data-ckav-sm="small">Expert staff</p>
-				</div>
-
 			</div>
 
 			<div class="row gt20 mb20 align-c middle-md" data-animate-in="fadeIn">
 				<div class="col-md-4"><hr></div>
 				<div class="col-md-4">
-					<a href="http://ckavart.com/" target="_blank" class="btn btn-dark solid bdr-2 bold-n mr-auto round" data-ckav-sm="medium">Book an Appointment</a>
+					<a href="#" class="btn btn-dark solid bdr-2 bold-n mr-auto round" data-toggle="modal" data-target="#appointmentFormModal" data-ckav-sm="medium" >Book an Appointment</a>
 				</div>
 				<div class="col-md-4"><hr></div>
 			</div>
@@ -574,138 +510,77 @@
 	************************************************************
 	* TESTIMONIAL 06
 	************************************************************ -->
-	<section class="pd-tb-small bg-gray" data-ckav-sm="pd-tb-small align-c" id="testimonials">
+	<section class="pd-tb-small bg-default" data-ckav-sm="pd-tb-small align-c" id="testimonials">
 		<div class="container small">
-			<h2 class="title f-1 mr-b-mini align-c" data-ckav-sm="medium" data-animate-in="fadeInUp">What our patients say</h2>
-			
+			<h2 class="title f-1 mr-b-mini align-c" data-ckav-sm="medium" data-animate-in="fadeInUp" style="font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">What our patients say</h2>
 			<div class="info-obj img-l g10 medium w75 mr-auto mr-b-mini" data-ckav-sm="img-t" data-animate-in="fadeInUp|0.1">
-				<div class="img mr-t-micro"><img class="rd" src="{% static 'images/person-01.jpg' %}" alt="person"></div>
 				<div class="info bg-white shadow-tiny pd-mini rd-20" data-ckav-sm="bdr-reset pd-20">
-					<p class="fs16 f-2">I've been going to Dr. Holder for almost 30 years. When I found out that he retired. I figured that I would try out Dr. Yoon, who bought his practice... I have been very pleased with his demeanor, professional abilities, and skill. (Replacing one of my crowns). I will continue as his patient.</p>
+					<p class="fs16 f-2">I've been going to Dr. Holder for almost 30 years. When I found out that he retired, I figured that I would try out Dr. Yoon, who bought his practice... I have been very pleased with his demeanor, professional abilities, and skill.  I will continue as his patient.</p>
 					<h3 class="title mini bold-n mr-0 f-2">Daniel B.</h3>
 					<em class="fs12 f-2">Chattanooga, TN</em>
 				</div>
-			</div>
-
-			<div class="info-obj img-r g10 medium w75 mr-auto" data-ckav-sm="img-t" data-animate-in="fadeInUp|0.2">
-				<div class="img mr-t-micro"><img class="rd" src="{% static 'images/person-02.jpg' %}" alt="person"></div>
-				<div class="info bg-white shadow-tiny pd-mini rd-20" data-ckav-sm="bdr-reset pd-20">
-					<p class="fs16 f-2">Liked his manner</p>
-					<h3 class="title mini bold-n mr-0 f-2">Thomas S.</h3>
-					<em class="fs12 f-2">Chattanooga, TN</em>
-				</div>
-			</div>
-			
+			</div>			
 		</div>
 	</section>
 	<!-- ************** END : TESTIMONIAL 06 **************  -->
-
-	<!--
-	************************************************************
-	* SUBSCRIBE SECTION
-   ************************************************************ -->
-   <!--
-	<section class="pd-tb-small shadow-medium pos-rel z1" data-ckav-sm="pd-tb-small">
-		<div class="container small" data-ckav-sm="align-c" data-animate-in="fadeIn">
-			<div class="w75 mr-auto align-c">
-				<p class="title-sub small mr-b-10 f-2">What are waiting for?</p>
-				<h2 class="title mr-b-tiny f-1" data-ckav-sm="medium">Make an appointment Today!</h2>
-			</div>
-		</div>
-   </section>
-   -->
-	<!-- ************** END : SUBSCRIBE SECTION **************  -->
-
-	<!--
-	************************************************************
-	* SOCIAL ACTION
-	************************************************************ 
-	<section class="pd-0 align-c bg-gray">
-		<div class="container small">
-			<div class="row" data-animate-in="fadeIn">
-				<div class="col-md col-xs-4">
-					<a href="http://ckavart.com/" target="_blank" class="h100 block fs30 pd-mini btn-dark hov-btn-default"><i class="fab fa-facebook-f"></i></a>
-				</div>
-				
-				<div class="col-md col-xs-4">
-					<a href="http://ckavart.com/" target="_blank" class="h100 block fs30 pd-mini btn-dark hov-btn-default"><i class="fab fa-twitter"></i></a>
-				</div>
-
-				<div class="col-md col-xs-4">
-					<a href="http://ckavart.com/" target="_blank" class="h100 block fs30 pd-mini btn-dark hov-btn-default"><i class="fab fa-google"></i></a>
-				</div>
-
-				<div class="col-md col-xs-4">
-					<a href="http://ckavart.com/" target="_blank" class="h100 block fs30 pd-mini btn-dark hov-btn-default"><i class="fab fa-youtube"></i></a>
-				</div>
-
-				<div class="col-md col-xs-4">
-					<a href="http://ckavart.com/" target="_blank" class="h100 block fs30 pd-mini btn-dark hov-btn-default"><i class="fab fa-tumblr"></i></a>
-				</div>
-
-				<div class="col-md col-xs-4">
-					<a href="http://ckavart.com/" target="_blank" class="h100 block fs30 pd-mini btn-dark hov-btn-default"><i class="fab fa-pinterest-p"></i></a>
-				</div>
-			</div>
-		</div>
-	</section>
-	 ************** END : SOCIAL ACTION **************  -->
 <!--
 	************************************************************
 	* OTHER SECTION 05
 	************************************************************ -->
-	<section class="pd-tb-small bg-default" data-ckav-sm="pd-tb-small">
-         <div class="container small typo-light">
-         
-            <div class="row gt40 mb10 middle-md">
+	<section class="pd-tb-small bg-grey" data-ckav-sm="pd-tb-small" >
+         <div class="container">
+            <div class="row gt20 mb20 middle-md">
                <div class="col-md-7" data-animate-in="fadeInLeft">
+                     <h2 class="title bold-n small f-1" data-ckav-sm="medium"style="font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Location</h2>
                   <div class="shadow-tiny bg-dark">
-                     
                      <!--=================================
                      = GOOGLE MAP
                      ==================================-->
                      <div class="gmap-widget" 
                         data-map-height="300" 
-                        data-map-latitude="-37.817136" 
-                        data-map-longitude="144.955652" 
+                        data-map-latitude="35.014015" 
+                        data-map-longitude="-85.231509" 
                         data-map-markerhd="Dr. Sang Yoon DDS" 
-                        data-map-markerhtml='<div class="pd-10 align-c"><h2 class="fs18 mr-b-10">Dr. Sang Yoon DDS</h2><p class="fs16 mr-0">4610 Brainerd Rd. Suite 2<br>Chattanooga, TN 37411</p></div>'></div>
+                        data-map-markerhtml="4610 Brainerd Rd. Suite 2 Chattanooga, TN 37411">
+                     </div>
                      <!-- ======= END :  =======  -->
                   
                      <div class="info-obj img-l g20 tiny pd-20">
                         <div class="img txt-white"><span class="iconwrp"><i class="pe-7s-map-marker"></i></span></div>
                         <div class="info">
-                           <p class="mr-0">Visit our office</p>
-                           <h3 class="title tiny">4610 Brainerd Rd. Suite 2, Chattanooga TN</h3>
+                           <p class="mr-0 txt-white">Dr. Sang Yoon DDS</p>
+                           <h3 class="title tiny txt-white">4610 Brainerd Rd. Suite 2, Chattanooga TN 37411</h3>
                         </div>
                      </div>
                   </div>
                </div>
    
                <div class="col-md-5" data-animate-in="fadeInRight">
-                  <div class="pd-l-tiny">
-                     <div class="info-obj img-l g20 mini">
-                        <div class="img txt-white"><span class="rd bg-dark iconwrp"><i class="pe-7s-call"></i></span></div>
-                        <div class="info">
-                           <p class="mr-0">Give us a call today!</p>
-                           <h3 class="title tiny">(423) 622-6552</h3>
+                     <div class="form-block rd-10 pd-mini" data-ckav-sm="pd-20">
+                           <h2 class="title small mr-b-20 bold-n f-1" data-ckav-sm="small align-c"style="font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Drop us a line</h2>
+                           <form action="form-data/formdata.php" class="form-widget">
+                              <div class="field-wrp">
+                                 <input type="hidden" name="to" value="c.kav.art@gmail.com">
+                                 <div class="form-group">
+                                    <input class="form-control bg-white" data-label="Name" required data-msg="Please enter name." type="text" name="name" placeholder="Enter your name">
+                                 </div>
+                                 <div class="form-group">
+                                    <input class="form-control bg-white" data-label="Email" required data-msg="Please enter email." type="email" name="email" placeholder="Enter your email">
+                                 </div>
+                                 <div class="form-group">
+                                    <input class="form-control bg-white" required data-label="Phone" data-msg="Please phone number." type="text" name="phone" placeholder="Enter your phone number">
+                                 </div>
+                                 <div class="form-group">
+                                    <textarea class="form-control bg-white" data-label="Message" required data-msg="Please enter your message." name="message" placeholder="Add your message" cols="30" rows="10"></textarea>
+                                 </div>
+                              </div>
+                              <button type="submit" class="btn solid btn-dark"><i class="fa fa-envelope-o"></i> SUBMIT</button>
+                           </form>
                         </div>
-                     </div>
-   
-                     <div class="info-obj img-l g20 mini">
-                        <div class="img txt-white"><span class="rd bg-dark iconwrp"><i class="pe-7s-mail"></i></span></div>
-                        <div class="info">
-                           <p class="mr-0">Email us at</p>
-                           <h3 class="title tiny"><a href="mailto:smiledr4610@gmail.com">smiledr4610@gmail.com</a></h3>
-                        </div>
-                     </div>                     
-                  </div>
-                  
+         
                </div>
             </div>
-            
          </div>
-   
       </section>
       <!-- ************** END : OTHER SECTION 05 **************  -->
 	<!--
@@ -723,7 +598,7 @@
 						</div>
 						
 						<div class="col-md-4" data-animate-in="fadeIn|0.2">
-							<h3 class="title mini bold-n">Office Hours</h3>
+							<h3 class="title mini bold-n">Working Hours</h3>
 							<ul class="list-1 txt-white op-06">
                            <li><strong>Monday:</strong> 8:00 - 5:00</li>
                            <li><strong>Tuesday:</strong> 8:00 - 5:00</li>
@@ -735,9 +610,8 @@
 						</div>
 
 						<div class="col-md-4" data-animate-in="fadeIn|0.3">
-							<h3 class="title mini bold-n">Office Numbers</h3>
+							<h3 class="title mini bold-n">Phone Numbers</h3>
 							<ul class="list-1 txt-white op-06">
-
 								<li><a href="tel:+14236226552" target="_blank" class="link-white">Phone (423) 622-6552</a></li>
 								<li><a href="tel:+14236226510" target="_blank" class="link-white">Fax (423) 622-6510</a></li>
 							</ul>
@@ -757,7 +631,7 @@
 			
 			<div class="row gt20">
 				<div class="col-md-6">
-					<p>Sang H. Yoon DDS &copy; <span class="copyright-year"></span></p>
+					<p>Dr. Sang H. Yoon DDS &copy; <span class="copyright-year"></span></p>
 				</div>
 				<div class="col-md-6 align-r" data-ckav-sm="align-c">
                Chattanooga Dentist Dr. Sang Yoon provides dental procedures such as teeth whitening, dental implants, and porcelain veneers. Our office treats patients from throughout the greater Chattanooga area, including East Ridge.

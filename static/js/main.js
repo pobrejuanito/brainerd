@@ -1434,7 +1434,7 @@
 				marker: {
 					latitude: o.attr("data-map-latitude"),
 					longitude: o.attr("data-map-longitude"),
-					icon: 'images/gmap-marker.png',
+					icon: 'static/images/gmap-marker.png',
 					title: o.attr("data-map-markerhd"),
 					open: false,
 					center: true
@@ -1452,8 +1452,9 @@
 	********************************************/
 	if ($o.gmapwidget) {
 		var social_script_arr = [
-			"https://maps.googleapis.com/maps/api/js?sensor=false",
-			"lib/MapIt/jquery.mapit.min.js"
+         //"https://maps.googleapis.com/maps/api/js?key=AIzaSyB5J6mrIhMJbDOFHtd1jx96haL4y-vSmvs&sensor=false",
+         "https://maps.googleapis.com/maps/api/js?sensor=false",
+			"static/lib/MapIt/jquery.mapit.min.js"
 		];
 
 		ckav.getMultiScripts(social_script_arr, '').done(function () {
