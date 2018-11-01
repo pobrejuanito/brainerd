@@ -1434,7 +1434,7 @@
 				marker: {
 					latitude: o.attr("data-map-latitude"),
 					longitude: o.attr("data-map-longitude"),
-					icon: 'static/images/gmap-marker.png',
+					icon: 'static/dryoon/images/gmap-marker.png',
 					title: o.attr("data-map-markerhd"),
 					open: false,
 					center: true
