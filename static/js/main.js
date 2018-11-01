@@ -1454,7 +1454,7 @@
 		var social_script_arr = [
          "https://maps.googleapis.com/maps/api/js?key=AIzaSyB5J6mrIhMJbDOFHtd1jx96haL4y-vSmvs&sensor=false",
          //"https://maps.googleapis.com/maps/api/js?sensor=false",
-			"static/lib/MapIt/jquery.mapit.min.js"
+			"static/dryoon/lib/MapIt/jquery.mapit.min.js"
 		];
 
 		ckav.getMultiScripts(social_script_arr, '').done(function () {
