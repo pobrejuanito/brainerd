@@ -12,12 +12,10 @@ def index(request):
     page_data = {}
     if request.method == 'POST':
         message = 'Appointment Request' + "\n"
-        message += 'Name: ' + request.POST.get('booking_guest_name') + "\n"
-        message += 'Phone: ' + request.POST.get('booking_phone') + "\n"
-        message += 'Email: ' + request.POST.get('booking_email') + "\n"
-        message += 'Date: ' + request.POST.get('booking_arrival_date') + "\n"
-        message += 'Time: ' + request.POST.get('booking_time') + "\n"
-        message += 'Message: ' + request.POST.get('booking_comments') + "\n\n"
+        message += 'Name: ' + request.POST.get('name') + "\n"
+        message += 'Phone: ' + request.POST.get('phone') + "\n"
+        message += 'Email: ' + request.POST.get('email') + "\n"
+        message += 'Message: ' + request.POST.get('message') + "\n\n"
         message += settings.EMAIL_SIGNATURE
         send_mail(settings.EMAIL_APPOINTMENT_SUBJECT, message,  settings.EMAIL_TO, [settings.EMAIL_TO], fail_silently=False)
         return JsonResponse({})
