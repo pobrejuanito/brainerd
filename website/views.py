@@ -27,10 +27,10 @@ def sendmessage(request):
 
     if request.method == 'POST':
         message = 'Message Details' + "\n"
-        message += 'Name: ' + request.POST.get('form_name') + "\n"
-        message += 'Phone: ' + request.POST.get('form_phone') + "\n"
-        message += 'Email: ' + request.POST.get('form_email') + "\n"
-        message += 'Message: ' + request.POST.get('form_message') + "\n\n"
+        message += 'Name: ' + request.POST.get('name') + "\n"
+        message += 'Phone: ' + request.POST.get('phone') + "\n"
+        message += 'Email: ' + request.POST.get('email') + "\n"
+        message += 'Message: ' + request.POST.get('message') + "\n\n"
         message += settings.EMAIL_SIGNATURE
         send_mail(settings.EMAIL_CONTACTUS_SUBJECT, message, settings.EMAIL_TO, [settings.EMAIL_TO], fail_silently=False)
     return JsonResponse({})

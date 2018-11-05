@@ -302,7 +302,7 @@
                         If there is any decay, we will provide a treatment plan before it endangers your health.
                         
                         Scheduling regular dental visits are important and we recommend at least couple vists per year.  
-                     <p class="f-2">
+                  <p class="f-2">
                         Our office is filled with resources that will you understand dental care and make the best choices for your health.  
                         
                         With our plan, we can help you enjoy a successful and healthy smile for numerous years.
@@ -411,11 +411,13 @@
 			</div>			
 		</div>
 	</section>
-	<!-- ************** END : TESTIMONIAL 06 **************  -->
+   <!-- ************** END : TESTIMONIAL 06 **************  -->
+   </div>
 <!--
 	************************************************************
 	* OTHER SECTION 05
-	************************************************************ -->
+   ************************************************************ -->
+   <div ng-controller="contactusFormController as contactus">
 	<section class="pd-tb-small bg-grey" data-ckav-sm="pd-tb-small" >
          <div class="container">
             <div class="row gt20 mb20 middle-md">
@@ -443,47 +445,48 @@
                      </div>
                   </div>
                </div>
-   
+               
                <div class="col-md-5" data-animate-in="fadeInRight">
-                     <div class="modal-body" ng-show="is_sent">
+                     <div class="modal-body" ng-show="is_contact_sent">
                            Message sent. We'll get back to you shortly.
                      </div>
-                     <div class="form-block rd-10 pd-mini" data-ckav-sm="pd-20" ng-show="!is_sent">
+                     <div class="modal-dialog" cg-busy="{promise:contactPromise,templateUrl:'{% static 'html/busy.html' %}'}"></div>
+                     <div class="form-block rd-10 pd-mini" data-ckav-sm="pd-20" ng-show="!is_contact_sent">
                            <h2 class="title small mr-b-20 bold-n f-1" data-ckav-sm="small align-c"style="font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Drop us a line</h2>
-                           <form method="POST" action="" class="form-widget" id="contactForm" name="contactForm" novalidate>
+                           <form method="POST" class="form-widget" id="contactForm" name="contactForm" novalidate>
                               {% csrf_token %}
                               <div class="field-wrp">
                                  <div class="form-group">
-                                    <input class="form-control bg-white" ng-model="contact.name" data-label="Name" type="text" name="name" placeholder="Enter your name" required >
+                                    <input class="form-control bg-white" ng-model="contactus.name" data-label="Name" type="text" name="name" placeholder="Enter your name" required >
                                     <div class="help-block" ng-messages="contactForm.name.$error" ng-show="contactForm.name.$touched">
                                        <div ng-message="required">This field is required</div>
                                     </div>
                                  </div>
                                  <div class="form-group">
-                                    <input class="form-control bg-white" ng-model="contact.email" data-label="Email" type="email" name="email" placeholder="Enter your email">
+                                    <input class="form-control bg-white" ng-model="contactus.email" data-label="Email" type="email" name="email" placeholder="Enter your email">
                                     <div class="help-block" ng-messages="contactForm.email.$error" ng-show="contactForm.email.$touched">
                                        <div ng-message="required">This field is required</div>
                                        <div ng-message="email">Your email address is invalid</div>
                                     </div>
                                  </div>
                                  <div class="form-group">
-                                    <input class="form-control bg-white" ng-model="contact.phone" data-msg="Please phone number." type="text" name="phone" placeholder="Enter your phone number" required>
+                                    <input class="form-control bg-white" ng-model="contactus.phone" data-msg="Please phone number." type="text" name="phone" placeholder="Enter your phone number" required>
                                     <div class="help-block" ng-messages="contactForm.phone.$error" ng-show="contactForm.phone.$touched">
                                        <div ng-message="required">This field is required</div>
                                     </div>
                                  </div>
                                  <div class="form-group">
-                                    <textarea class="form-control bg-white" ng-model="contact.message" data-label="Message" name="message" placeholder="Add your message" cols="30" rows="10" required></textarea>
+                                    <textarea class="form-control bg-white" ng-model="contactus.message" data-label="Message" name="message" placeholder="Add your message" cols="30" rows="10" required></textarea>
                                     <div ng-messages="contactForm.message.$error" ng-show="contactForm.message.$touched">
                                        <div ng-message="required">This field is required</div>
                                     </div>
                                  </div>
                               </div>
-                              <button type="submit" class="btn solid btn-dark"><i class="fa fa-envelope-o"></i> SUBMIT</button>
+                              <button ng-click="send()" ng-disabled="contactForm.$invalid" class="btn btn-dark hov-btn-default solid" id="contactForm-submit" name="contactForm-submit" value="submit">Send Message</button>
                            </form>
                         </div>
-         
-               </div>
+                        </div>
+                  </div>
             </div>
          </div>
       </section>

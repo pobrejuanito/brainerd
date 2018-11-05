@@ -8,7 +8,6 @@ angular.module('avaApp', ['ngMessages','cgBusy'])
     .controller('appointmentFormController', function($scope, $http) {
 
         $scope.is_sent = false;
-        $scope.is_contact_sent = false;
         $scope.send = function() {
 
             var req = {
@@ -21,7 +20,6 @@ angular.module('avaApp', ['ngMessages','cgBusy'])
             $scope.appointmentPromise = $http(req).then(function(response) {
 
                 $scope.is_sent = true;
-                $scope.is_contact_sent = true;
                 // this callback will be called asynchronously, when the response is available
                 $scope.server_error_msg = '';
 
@@ -48,8 +46,8 @@ angular.module('avaApp', ['ngMessages','cgBusy'])
         */
     })
     .controller('contactusFormController', function($scope, $http) {
-
-        $scope.is_sent = false;
+      
+        $scope.is_contact_sent = false;
         $scope.send = function() {
 
             var req = {
@@ -62,11 +60,18 @@ angular.module('avaApp', ['ngMessages','cgBusy'])
 
             $scope.contactPromise = $http(req).then(function(response) {
 
-                $scope.is_sent = true;
+                $scope.is_contact_sent = true;
                 // this callback will be called asynchronously, when the response is available
                 $scope.server_error_msg = '';
                 //$scope.hasError = false;
                 //$location.path('/done');
+
+                $scope.contactus = {
+                  name: '',
+                  phone: '',
+                  email: '',
+                  message: ''
+               };
 
             }, function(response) {
                 // called asynchronously if an error occurs or server returns response with an error status.
