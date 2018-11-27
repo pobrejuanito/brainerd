@@ -2342,7 +2342,7 @@ Tab style 4
   background-color: rgba(0, 0, 0, 0.02);
 }
 .tab-style4 .tb-list > li.active:not([class*="txt-default"]):not([class*="txt-primary"]):not([class*="txt-secondary"]):not([class*="txt-white"]) {
-  color: #fff;
+  color: #1f2229;
 }
 .tab-style4 .tb-list > li.active:not([class*="bdr-"]) {
   border-color: #1f2229;
